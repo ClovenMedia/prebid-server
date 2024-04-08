@@ -1,0 +1,15 @@
+{
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "title": "clovenmedia Adapter Params",
+    "description": "A schema which validates params accepted by the clovenmedia adapter",
+    "type": "object",
+    "properties": {
+      "placementId": {
+        "type": "string",
+        "minLength": 1,
+        "description": "Placement Id or Website Id"
+      }
+    },
+    "required": ["placementId"]
+  }
+  
