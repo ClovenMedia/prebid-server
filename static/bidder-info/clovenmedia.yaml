@@ -1,0 +1,10 @@
+endpoint: "http://prebid.vdntx.com/openrtb2"
+maintainer:
+  email: "work.clovenmedia@gmail.com"
+capabilities:
+  app:
+    mediaTypes:
+      - banner
+  site:
+    mediaTypes:
+      - banner
